@@ -1,8 +1,8 @@
 body{
     font-family: sans-serif;
     margin: auto;
-    
     max-width: 1024px;
+    background-color:olivedrab;
 }
 
 header h3{
@@ -13,7 +13,7 @@ header h3{
 
 header{
     display: flex;
-    background-color: brown;
+    background-color: darkgoldenrod;
     border-color: black;
     border-style: solid;
     width: 1024px;
@@ -23,12 +23,12 @@ header{
 
 header a{
     display: flex;
-    background-color: red;
+    background-color: darkblue;
     border-color: black;
     border-style: solid;
 }
 
-body header nav ul{
+nav ul{
     list-style-type: none;
     display: flex;
     margin: 0;
@@ -40,14 +40,16 @@ body header nav ul{
 li a{
     display: flex;
     text-align: center;
-    color: greenyellow;
+    color: darkgrey;
     padding: 16px;
     text-decoration: none;
 }
 
-a{
+a {
     display: flex;
     text-align: center;
+    margin-left: auto;
+    color: darkgray;
     padding-top: 15px;
     padding-left: 40px;
     padding-right: 40px;
@@ -55,20 +57,21 @@ a{
 
 
 .main-page{
-    width: 700px;
+    width: 750px;
+    display: inline-block;
     border-style: solid;
-    background-color: orange;
+    background-color: goldenrod;
 }
 
 .first-news{
-    width: 30%;
+    width: 40%;
     float: left;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 .second-news{
  
-    width: 30%;
+    width: 40%;
     vertical-align: text-top;
     padding-left: 370px;
 
@@ -76,10 +79,6 @@ a{
 
 p{
     font-size: 15px;
-}
-
-form{
-   
 }
 
 h2{
@@ -93,18 +92,20 @@ h2{
 }
 
 .login-content{
+    display: inline-block;
+    align-content: center;
     width: 1004px;
-   
     padding: 10px;
 }
 
 
 
 aside{
-    border-style: double;
-    border-radius: 3px;
-    background-color: brown;
-    width: 200px;
+    background-color: lightsteelblue;
+    border-style: solid;
+    width: 266px;
+    height: 644px;
+    text-align: center;
     float: right;
 }
 
@@ -115,7 +116,8 @@ footer{
 
 .reset{
     border-style: solid;
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0.724);
+    border-radius: 30%;
 }
 
 .submit{
@@ -126,7 +128,7 @@ footer{
 }
 
 form{
-    background-color: red;
+    background-color: darkgoldenrod;
     border-style: double;
     border-radius: 10px;
     padding: 15px;
@@ -136,15 +138,4 @@ form{
 footer{
     padding-left: 10px;
 }
-/* .grid-item{
-    display: grid;
-    background-color: aqua;
-}
-
-.grid-container{
-    background-color: blue;
-    border: 2px solid red;
-}
-
-*/
 
