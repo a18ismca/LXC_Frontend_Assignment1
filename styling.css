@@ -5,16 +5,31 @@ body{
     max-width: 1024px;
 }
 
-header, li a, header a {
-    display: inline-block;
+header h3{
+    display: flex;
+    padding-left: 3px;
+    padding-right: 3px;      
+}
+
+header{
+    display: flex;
     background-color: brown;
+    border-color: black;
+    border-style: solid;
+    width: 1024px;
+    height: 53px;
+}
+
+header a{
+    display: flex;
+    background-color: red;
     border-color: black;
     border-style: solid;
 }
 
 body header nav ul{
     list-style-type: none;
-    display: inline;
+    display: flex;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -22,14 +37,74 @@ body header nav ul{
 }
 
 li a{
-    display: block;
-    color: white;
+    display: flex;
+    text-align: center;
+    color: greenyellow;
     text-align: center;
     padding: 16px;
     text-decoration: none;
 }
 
+a{
+    display: flex;
+}
 
+
+.main-page{
+    width: 700px;
+    border-style: solid;
+    background-color: orange;
+}
+
+.first-news{
+    width: 30%;
+    float: left;
+    padding-left: 40px;
+}
+
+.second-news{
+ 
+    width: 30%;
+    vertical-align: text-top;
+    padding-left: 370px;
+
+}
+
+p{
+    font-size: 15px;
+}
+
+form{
+   
+}
+
+h2{
+    text-transform: uppercase;
+    padding-left: 5px;
+    width: 250px;
+    display: flex;
+    border-left: 10px solid;
+    border-right: 40px;
+    
+}
+
+.login-content{
+    width: 500px;
+    background-color: orangered;
+    border-style: double;
+    border-color: black;
+    padding: 10px;
+}
+
+
+
+aside{
+    border-style: double;
+    border-radius: 3px;
+    background-color: brown;
+    width: 200px;
+    float: right;
+}
 
 
 /* .grid-item{
