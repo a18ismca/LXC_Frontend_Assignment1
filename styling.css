@@ -89,7 +89,7 @@ h2{
 }
 
 .login-content{
-    width: 500px;
+    width: 1004px;
     background-color: orangered;
     border-style: double;
     border-color: black;
@@ -104,6 +104,30 @@ aside{
     background-color: brown;
     width: 200px;
     float: right;
+}
+
+footer{
+    height: 50px;
+   
+}
+
+.reset{
+    border-style: solid;
+    background-color: yellow;
+}
+
+.submit{
+
+    border-style: double;
+    background-color: green;
+    border-radius: 40%;
+}
+
+form{
+    border-style: double;
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
 }
 
 
